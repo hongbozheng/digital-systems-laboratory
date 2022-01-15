@@ -1,0 +1,337 @@
+|logic_processor_4_bit_schematic
+A0 <= 74194:Reg_A.QD
+Mux_GN => 74153:Routing_Unit_Mux.1GN
+Mux_GN => 74153:Routing_Unit_Mux.2GN
+Mux_GN => 74153:Computational_Unit_Mux.1GN
+D2 => 74194:Reg_B.B
+D2 => 74194:Reg_A.B
+D1 => 74194:Reg_B.C
+D1 => 74194:Reg_A.C
+CLK => 74194:Reg_B.CLK
+CLK => 7474:DFF.1CLK
+CLK => 74163:Counter.CLK
+CLK => 74194:Reg_A.CLK
+Reg_B_CLRN => 74194:Reg_B.CLRN
+D0 => 74194:Reg_B.D
+D0 => 74194:Reg_A.D
+Load_B => 7402:Not_Load_B.2
+Load_B => 7402:Not_Load_B.3
+Execute => 7402:Load_B_New.3
+Execute => 7400:NOT_Execute.3
+Execute => 7400:NOT_Execute.2
+Execute => 7400:E_NOT_Q.2
+Execute => 7402:Load_A_New.3
+Counter_CLRN => 74163:Counter.CLRN
+Counter_LDN => 74163:Counter.LDN
+DFF_PRN => 7474:DFF.1PRN
+DFF_CLRN => 7474:DFF.1CLRN
+D3 => 74194:Reg_B.A
+D3 => 74194:Reg_A.A
+F2 => 7486:F2_Select.2
+Vcc => 74153:Computational_Unit_Mux.1C3
+F1 => 74153:Computational_Unit_Mux.B
+F0 => 74153:Computational_Unit_Mux.A
+R1 => 74153:Routing_Unit_Mux.B
+R0 => 74153:Routing_Unit_Mux.A
+Reg_A_CLRN => 74194:Reg_A.CLRN
+Load_A => 7402:NOT_Load_A.2
+Load_A => 7402:NOT_Load_A.3
+A1 <= 74194:Reg_A.QC
+A2 <= 74194:Reg_A.QB
+A3 <= 74194:Reg_A.QA
+B0 <= 74194:Reg_B.QD
+B1 <= 74194:Reg_B.QC
+B2 <= 74194:Reg_B.QB
+B3 <= 74194:Reg_B.QA
+
+
+|logic_processor_4_bit_schematic|74194:Reg_A
+QD <= 38.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => 38.ACLR
+CLRN => 39.ACLR
+CLRN => 40.ACLR
+CLRN => 41.ACLR
+CLK => 38.CLK
+CLK => 39.CLK
+CLK => 40.CLK
+CLK => 41.CLK
+S1 => 13.IN0
+S1 => 52.IN0
+S1 => 56.IN0
+S1 => 60.IN0
+S1 => 64.IN0
+S1 => 63.IN1
+S1 => 59.IN2
+S1 => 55.IN2
+S1 => 51.IN2
+S0 => 12.IN0
+S0 => 50.IN1
+S0 => 62.IN0
+S0 => 63.IN0
+S0 => 58.IN1
+S0 => 59.IN1
+S0 => 54.IN1
+S0 => 55.IN1
+S0 => 51.IN1
+SLSI => 52.IN2
+SRSI => 62.IN2
+A => 63.IN2
+B => 59.IN0
+C => 55.IN0
+D => 51.IN0
+QC <= 39.DB_MAX_OUTPUT_PORT_TYPE
+QB <= 40.DB_MAX_OUTPUT_PORT_TYPE
+QA <= 41.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|logic_processor_4_bit_schematic|74153:Routing_Unit_Mux
+1Y <= 9.DB_MAX_OUTPUT_PORT_TYPE
+1GN => 26.IN0
+B => 27.IN0
+A => 29.IN0
+1C0 => 1.IN3
+1C1 => 2.IN3
+1C2 => 3.IN3
+1C3 => 4.IN3
+2Y <= 10.DB_MAX_OUTPUT_PORT_TYPE
+2C0 => 5.IN0
+2GN => 25.IN0
+2C1 => 6.IN0
+2C2 => 7.IN0
+2C3 => 8.IN0
+
+
+|logic_processor_4_bit_schematic|74194:Reg_B
+QD <= 38.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => 38.ACLR
+CLRN => 39.ACLR
+CLRN => 40.ACLR
+CLRN => 41.ACLR
+CLK => 38.CLK
+CLK => 39.CLK
+CLK => 40.CLK
+CLK => 41.CLK
+S1 => 13.IN0
+S1 => 52.IN0
+S1 => 56.IN0
+S1 => 60.IN0
+S1 => 64.IN0
+S1 => 63.IN1
+S1 => 59.IN2
+S1 => 55.IN2
+S1 => 51.IN2
+S0 => 12.IN0
+S0 => 50.IN1
+S0 => 62.IN0
+S0 => 63.IN0
+S0 => 58.IN1
+S0 => 59.IN1
+S0 => 54.IN1
+S0 => 55.IN1
+S0 => 51.IN1
+SLSI => 52.IN2
+SRSI => 62.IN2
+A => 63.IN2
+B => 59.IN0
+C => 55.IN0
+D => 51.IN0
+QC <= 39.DB_MAX_OUTPUT_PORT_TYPE
+QB <= 40.DB_MAX_OUTPUT_PORT_TYPE
+QA <= 41.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|logic_processor_4_bit_schematic|7402:Load_B_New
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|logic_processor_4_bit_schematic|7402:Not_Load_B
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|logic_processor_4_bit_schematic|7486:Reg_B_S0
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|logic_processor_4_bit_schematic|7410:Shift
+1 <= 5.DB_MAX_OUTPUT_PORT_TYPE
+4 => 5.IN0
+3 => 5.IN1
+2 => 5.IN2
+
+
+|logic_processor_4_bit_schematic|7400:E_NOT_Q
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|logic_processor_4_bit_schematic|7474:DFF
+1Q <= 9.DB_MAX_OUTPUT_PORT_TYPE
+1CLRN => 9.ACLR
+1CLK => 9.CLK
+1D => 9.DATAIN
+1PRN => 9.PRESET
+1QN <= 16.DB_MAX_OUTPUT_PORT_TYPE
+2Q <= 10.DB_MAX_OUTPUT_PORT_TYPE
+2CLRN => 10.ACLR
+2CLK => 10.CLK
+2D => 10.DATAIN
+2PRN => 10.PRESET
+2QN <= 15.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|logic_processor_4_bit_schematic|7410:Q_Next_State
+1 <= 5.DB_MAX_OUTPUT_PORT_TYPE
+4 => 5.IN0
+3 => 5.IN1
+2 => 5.IN2
+
+
+|logic_processor_4_bit_schematic|7400:NOT_C0
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|logic_processor_4_bit_schematic|74163:Counter
+clk => f74163:sub.clk
+ldn => f74163:sub.ldn
+clrn => f74163:sub.clrn
+enp => f74163:sub.enp
+ent => f74163:sub.ent
+d => ~NO_FANOUT~
+c => ~NO_FANOUT~
+b => ~NO_FANOUT~
+a => ~NO_FANOUT~
+qd <= f74163:sub.qd
+qc <= f74163:sub.qc
+qb <= f74163:sub.qb
+qa <= f74163:sub.qa
+rco <= f74163:sub.rco
+
+
+|logic_processor_4_bit_schematic|74163:Counter|f74163:sub
+RCO <= 129.DB_MAX_OUTPUT_PORT_TYPE
+CLK => 134.CLK
+CLK => 122.CLK
+CLK => 111.CLK
+CLK => 34.CLK
+CLRN => 137.IN0
+CLRN => 126.IN0
+CLRN => 115.IN0
+CLRN => 68.IN0
+D => 136.IN0
+LDN => 144.IN0
+LDN => 132.IN0
+LDN => 121.IN0
+LDN => 110.IN0
+LDN => 71.IN0
+ENP => 130.IN0
+ENP => 119.IN0
+ENP => 108.IN0
+ENP => 105.IN0
+C => 124.IN0
+B => 113.IN0
+A => 70.IN0
+ENT => 140.DATAIN
+QD <= 134.DB_MAX_OUTPUT_PORT_TYPE
+QC <= 122.DB_MAX_OUTPUT_PORT_TYPE
+QB <= 111.DB_MAX_OUTPUT_PORT_TYPE
+QA <= 34.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|logic_processor_4_bit_schematic|7400:NOT_C1
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|logic_processor_4_bit_schematic|7400:NOT_Execute
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|logic_processor_4_bit_schematic|7486:F2_Select
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|logic_processor_4_bit_schematic|74153:Computational_Unit_Mux
+1Y <= 9.DB_MAX_OUTPUT_PORT_TYPE
+1GN => 26.IN0
+B => 27.IN0
+A => 29.IN0
+1C0 => 1.IN3
+1C1 => 2.IN3
+1C2 => 3.IN3
+1C3 => 4.IN3
+2Y <= 10.DB_MAX_OUTPUT_PORT_TYPE
+2C0 => 5.IN0
+2GN => 25.IN0
+2C1 => 6.IN0
+2C2 => 7.IN0
+2C3 => 8.IN0
+
+
+|logic_processor_4_bit_schematic|7400:A_OR_B
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|logic_processor_4_bit_schematic|7400:NOT_B
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|logic_processor_4_bit_schematic|7400:NOT_A
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|logic_processor_4_bit_schematic|7400:A_AND_B
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|logic_processor_4_bit_schematic|7400:A_NAND_B
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|logic_processor_4_bit_schematic|7486:A_XOR_B
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|logic_processor_4_bit_schematic|7402:Load_A_New
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|logic_processor_4_bit_schematic|7402:NOT_Load_A
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|logic_processor_4_bit_schematic|7486:Reg_A_S0
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+

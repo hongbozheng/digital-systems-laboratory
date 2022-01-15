@@ -1,0 +1,106 @@
+module logic_processor_4_bit_testbench();
+
+timeunit 10ns;	// Half clock cycle at 50 MHz
+					// This is the amount of time represented by #1 
+timeprecision 1ns;
+
+// These signals are internal because your device under test will be instantiated as a module inside your testbench
+
+logic CLK = 0;
+
+// Register Unit
+logic [3:0] D;
+logic Reg_A_CLRN, Reg_B_CLRN;
+
+// Computational Unit Select
+logic [2:0] F;
+logic Mux_GN;
+logic Vcc;
+
+// Routing Unit Select
+logic [1:0] R;
+
+// Control Unit
+logic Load_A, Load_B, Execute;
+logic DFF_PRN, DFF_CLRN;
+logic Counter_LDN, Counter_CLRN;
+
+// Output
+logic [3:0] A;
+logic [3:0] B;
+
+logic Q_next;
+logic Shift_signal;
+logic S3, S2, S1, S0, C1, C0;
+
+// Instantiating the DUT
+// Make sure the module and signal names match with those in your design
+logic_processor_4_bit_schematic dut0(.D3(D[3]), .D2(D[2]), .D1(D[1]), .D0(D[0]),
+												 .F2(F[2]), .F1(F[1]), .F0(F[0]),
+												 .R1(R[1]), .R0(R[0]),
+												 .CLK(CLK),
+												 .Execute(Execute),
+												 .Load_A(Load_A), .Load_B(Load_B),
+												 .Reg_A_CLRN(Reg_A_CLRN), .Reg_B_CLRN(Reg_B_CLRN),
+												 .Mux_GN(Mux_GN), .Vcc(Vcc),
+												 .DFF_PRN(DFF_PRN), .DFF_CLRN(DFF_CLRN),
+												 .Counter_LDN(Counter_LDN), .Counter_CLRN(Counter_CLRN),
+												 .A3(A[3]), .A2(A[2]), .A1(A[1]), .A0(A[0]),
+												 .B3(B[3]), .B2(B[2]), .B1(B[1]), .B0(B[0]),
+												 .Q_next(Q_next), .Shift_signal(Shift_signal), .S1(S1), .S0(S0), .S3(S3), .S2(S2), .C1(C1), .C0(C0));
+												 
+// Toggle the clock
+// #1 means wait for a delay of 1 timeunit
+always begin : CLOCK_GENERATION
+#1 CLK = ~CLK;
+end
+
+initial begin: CLOCK_INITIALIZATION
+    CLK = 0;
+end 
+
+initial begin: TEST_VECTORS
+//Put your test vectors here
+
+Load_A=1'b0;
+Load_B=1'b0;
+
+Execute=1'b0;
+F=3'b000;
+R=2'b00;
+D=4'b0000;
+
+Reg_A_CLRN=1'b1;
+Reg_B_CLRN=1'b1;
+
+Mux_GN=1'b0;
+Vcc=1'b1;
+
+DFF_PRN=1'b1;
+DFF_CLRN=1'b1;
+
+Counter_LDN=1'b1;
+Counter_CLRN=1'b1;
+
+// Load Value into Register A
+D=4'b1010;
+#2 Load_A=1'b1;
+#2 Load_A=1'b0;
+
+// Load Value into Register B
+D=4'b0101;
+#2 Load_B=1'b1;
+#2 Load_B=1'b0;
+
+// A XOR B
+#4 F=3'b010;
+
+// A F
+R=2'b01;
+
+#2 Execute=1'b1;
+#2 Execute=1'b0;
+
+end
+
+endmodule
