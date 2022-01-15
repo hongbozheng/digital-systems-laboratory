@@ -1,0 +1,244 @@
+# Reading pref.tcl
+# do SLC-3_Fetch_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/Marco\ Reus/Documents/ECE385/SLC-3_Fetch {C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/X-bit_4-to-1_Multiplexer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:00:07 on Jul 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch" C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/X-bit_4-to-1_Multiplexer.sv 
+# -- Compiling module mux_4_to_1_X_bit
+# 
+# Top level modules:
+# 	mux_4_to_1_X_bit
+# End time: 21:00:07 on Jul 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Marco\ Reus/Documents/ECE385/SLC-3_Fetch {C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/test_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:00:07 on Jul 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch" C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/test_memory.sv 
+# -- Compiling module test_memory
+# 
+# Top level modules:
+# 	test_memory
+# End time: 21:00:07 on Jul 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Marco\ Reus/Documents/ECE385/SLC-3_Fetch {C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/synchronizers.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:00:07 on Jul 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch" C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/synchronizers.sv 
+# -- Compiling module sync
+# -- Compiling module sync_r0
+# -- Compiling module sync_r1
+# 
+# Top level modules:
+# 	sync
+# 	sync_r0
+# 	sync_r1
+# End time: 21:00:07 on Jul 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Marco\ Reus/Documents/ECE385/SLC-3_Fetch {C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/SLC3_2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:00:08 on Jul 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch" C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/SLC3_2.sv 
+# -- Compiling package SLC3_2
+# 
+# Top level modules:
+# 	--none--
+# End time: 21:00:08 on Jul 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Marco\ Reus/Documents/ECE385/SLC-3_Fetch {C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/Mem2IO.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:00:08 on Jul 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch" C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/Mem2IO.sv 
+# -- Compiling module Mem2IO
+# 
+# Top level modules:
+# 	Mem2IO
+# End time: 21:00:08 on Jul 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Marco\ Reus/Documents/ECE385/SLC-3_Fetch {C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/ISDU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:00:08 on Jul 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch" C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/ISDU.sv 
+# -- Compiling module ISDU
+# 
+# Top level modules:
+# 	ISDU
+# End time: 21:00:08 on Jul 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Marco\ Reus/Documents/ECE385/SLC-3_Fetch {C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:00:08 on Jul 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch" C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 21:00:08 on Jul 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Marco\ Reus/Documents/ECE385/SLC-3_Fetch {C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/16-bit_Register.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:00:08 on Jul 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch" C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/16-bit_Register.sv 
+# -- Compiling module register_16_bit
+# 
+# Top level modules:
+# 	register_16_bit
+# End time: 21:00:08 on Jul 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Marco\ Reus/Documents/ECE385/SLC-3_Fetch {C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/16-bit_4-to-1_DataBus_Multiplexer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:00:08 on Jul 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch" C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/16-bit_4-to-1_DataBus_Multiplexer.sv 
+# -- Compiling module databus_mux_4_to_1_16_bit
+# 
+# Top level modules:
+# 	databus_mux_4_to_1_16_bit
+# End time: 21:00:08 on Jul 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Marco\ Reus/Documents/ECE385/SLC-3_Fetch {C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/memory_contents.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:00:08 on Jul 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch" C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/memory_contents.sv 
+# -- Compiling package memory_contents_sv_unit
+# -- Importing package SLC3_2
+# -- Compiling module memory_parser
+# 
+# Top level modules:
+# 	memory_parser
+# End time: 21:00:09 on Jul 13,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Marco\ Reus/Documents/ECE385/SLC-3_Fetch {C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/DataPath.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:00:09 on Jul 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch" C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/DataPath.sv 
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 21:00:09 on Jul 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Marco\ Reus/Documents/ECE385/SLC-3_Fetch {C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/slc3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:00:09 on Jul 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch" C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/slc3.sv 
+# -- Compiling module slc3
+# 
+# Top level modules:
+# 	slc3
+# End time: 21:00:09 on Jul 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Marco\ Reus/Documents/ECE385/SLC-3_Fetch {C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/slc3_testtop.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:00:09 on Jul 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch" C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/slc3_testtop.sv 
+# -- Compiling module slc3_testtop
+# 
+# Top level modules:
+# 	slc3_testtop
+# End time: 21:00:09 on Jul 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/Marco\ Reus/Documents/ECE385/SLC-3_Fetch {C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/SLC-3_Fetch_testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:00:09 on Jul 13,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch" C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/SLC-3_Fetch_testbench.sv 
+# -- Compiling module slc3_fetch_testbench
+# 
+# Top level modules:
+# 	slc3_fetch_testbench
+# End time: 21:00:09 on Jul 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  slc3_fetch_testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" slc3_fetch_testbench 
+# Start time: 21:00:09 on Jul 13,2021
+# Loading sv_std.std
+# Loading work.slc3_fetch_testbench
+# Loading work.slc3_testtop
+# Loading work.slc3
+# Loading work.datapath
+# Loading work.mux_4_to_1_X_bit
+# Loading work.register_16_bit
+# Loading work.databus_mux_4_to_1_16_bit
+# Loading work.Mem2IO
+# Loading work.ISDU
+# Loading work.test_memory
+# Loading work.SLC3_2
+# Loading work.memory_contents_sv_unit
+# Loading work.memory_parser
+# Loading work.HexDriver
+# Loading work.sync
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'slc3_TestTop'.  Expected 9, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3_fetch_testbench/slc3_TestTop File: C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/SLC-3_Fetch_testbench.sv Line: 14
+# ** Warning: (vsim-3722) C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/SLC-3_Fetch_testbench.sv(14): [TFMPC] - Missing connection for port 'SW'.
+# ** Warning: (vsim-3722) C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/SLC-3_Fetch_testbench.sv(14): [TFMPC] - Missing connection for port 'LED'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DataPath'.  Expected 19, found 15.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3_fetch_testbench/slc3_TestTop/slc/DataPath File: C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/slc3.sv Line: 59
+# ** Warning: (vsim-3722) C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/slc3.sv(59): [TFMPC] - Missing connection for port 'PC'.
+# ** Warning: (vsim-3722) C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/slc3.sv(59): [TFMPC] - Missing connection for port 'ADDR_SUM'.
+# ** Warning: (vsim-3722) C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/slc3.sv(59): [TFMPC] - Missing connection for port 'ALU'.
+# ** Warning: (vsim-3722) C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/slc3.sv(59): [TFMPC] - Missing connection for port 'DataBus'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 2000 ns
+add wave -position insertpoint  \
+sim:/slc3_fetch_testbench/slc3_TestTop/slc/DataPath/MAR
+add wave -position insertpoint  \
+sim:/slc3_fetch_testbench/slc3_TestTop/slc/DataPath/MDR
+add wave -position insertpoint  \
+sim:/slc3_fetch_testbench/slc3_TestTop/slc/memory_subsystem/Data_from_CPU
+add wave -position insertpoint  \
+sim:/slc3_fetch_testbench/slc3_TestTop/slc/memory_subsystem/hex_data
+add wave -position insertpoint  \
+sim:/slc3_fetch_testbench/slc3_TestTop/slc/memory_subsystem/Data_to_CPU
+add wave -position insertpoint  \
+sim:/slc3_fetch_testbench/slc3_TestTop/slc/memory_subsystem/Data_to_SRAM
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'slc3_TestTop'.  Expected 9, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3_fetch_testbench/slc3_TestTop File: C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/SLC-3_Fetch_testbench.sv Line: 14
+# ** Warning: (vsim-3722) C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/SLC-3_Fetch_testbench.sv(14): [TFMPC] - Missing connection for port 'SW'.
+# ** Warning: (vsim-3722) C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/SLC-3_Fetch_testbench.sv(14): [TFMPC] - Missing connection for port 'LED'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DataPath'.  Expected 19, found 15.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3_fetch_testbench/slc3_TestTop/slc/DataPath File: C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/slc3.sv Line: 59
+# ** Warning: (vsim-3722) C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/slc3.sv(59): [TFMPC] - Missing connection for port 'PC'.
+# ** Warning: (vsim-3722) C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/slc3.sv(59): [TFMPC] - Missing connection for port 'ADDR_SUM'.
+# ** Warning: (vsim-3722) C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/slc3.sv(59): [TFMPC] - Missing connection for port 'ALU'.
+# ** Warning: (vsim-3722) C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/slc3.sv(59): [TFMPC] - Missing connection for port 'DataBus'.
+run 3000ns
+add wave -position insertpoint  \
+sim:/slc3_fetch_testbench/slc3_TestTop/slc/memory_subsystem/Data_to_SRAM
+add wave -position insertpoint  \
+sim:/slc3_fetch_testbench/slc3_TestTop/slc/memory_subsystem/Data_to_CPU
+add wave -position insertpoint  \
+sim:/slc3_fetch_testbench/slc3_TestTop/slc/memory_subsystem/Data_from_SRAM
+add wave -position insertpoint  \
+sim:/slc3_fetch_testbench/slc3_TestTop/slc/memory_subsystem/Data_from_CPU
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'slc3_TestTop'.  Expected 9, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3_fetch_testbench/slc3_TestTop File: C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/SLC-3_Fetch_testbench.sv Line: 14
+# ** Warning: (vsim-3722) C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/SLC-3_Fetch_testbench.sv(14): [TFMPC] - Missing connection for port 'SW'.
+# ** Warning: (vsim-3722) C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/SLC-3_Fetch_testbench.sv(14): [TFMPC] - Missing connection for port 'LED'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DataPath'.  Expected 19, found 15.
+#    Time: 0 ps  Iteration: 0  Instance: /slc3_fetch_testbench/slc3_TestTop/slc/DataPath File: C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/slc3.sv Line: 59
+# ** Warning: (vsim-3722) C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/slc3.sv(59): [TFMPC] - Missing connection for port 'PC'.
+# ** Warning: (vsim-3722) C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/slc3.sv(59): [TFMPC] - Missing connection for port 'ADDR_SUM'.
+# ** Warning: (vsim-3722) C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/slc3.sv(59): [TFMPC] - Missing connection for port 'ALU'.
+# ** Warning: (vsim-3722) C:/Users/Marco Reus/Documents/ECE385/SLC-3_Fetch/slc3.sv(59): [TFMPC] - Missing connection for port 'DataBus'.
+run 3000ns
+# End time: 21:02:57 on Jul 13,2021, Elapsed time: 0:02:48
+# Errors: 0, Warnings: 8

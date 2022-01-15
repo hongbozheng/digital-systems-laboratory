@@ -1,0 +1,8 @@
+module mux_4_to_1_16_bit (
+	input logic [15:0] A, B, C, D,
+	input logic [1:0] Select,
+	
+	output logic [15:0] F
+);
+	assign F = Select[1] ? (Select[0] ? D : C) : (Select[0] ? B : A);
+endmodule
