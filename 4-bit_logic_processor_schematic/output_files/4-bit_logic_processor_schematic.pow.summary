@@ -1,0 +1,12 @@
+Power Analyzer Status : Successful - Tue Jul 06 14:50:35 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : 4-bit_logic_processor_schematic
+Top-level Entity Name : logic_processor_4_bit_schematic
+Family : MAX 10
+Device : 10M50DAF484C7G
+Power Models : Final
+Total Thermal Power Dissipation : 98.52 mW
+Core Dynamic Thermal Power Dissipation : 0.00 mW
+Core Static Thermal Power Dissipation : 89.94 mW
+I/O Thermal Power Dissipation : 8.58 mW
+Power Estimation Confidence : Low: user provided insufficient toggle rate data
