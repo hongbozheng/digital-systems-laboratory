@@ -16,3 +16,7 @@ Implementation of the physical circuit of the 4-bit Logic Processor
 #### Lab 3 Part 1 - [4-bit Logic Processor (SystemVerilog)](https://gitlab.engr.illinois.edu/hongboz2/digital_systems_laboratory/-/tree/main/4-bit_logic_processor)
 
 Implementation of the 4-bit Logic Processor using SystemVerilog
+
+#### Lab 3 Part 2 - [8-bit Logic Processor (SystemVerilog)](https://gitlab.engr.illinois.edu/hongboz2/digital_systems_laboratory/-/tree/main/8-bit_logic_processor)
+
+Implementation of the 8-bit Logic Processor using SystemVerilog
