@@ -21,7 +21,7 @@ Implementation of the 4-bit Logic Processor using SystemVerilog
 
 Implementation of the 8-bit Logic Processor using SystemVerilog
 
-#### Lab 3 Part 3 - [16-bit Adder]()
+#### Lab 3 Part 3 - [16-bit Adder](https://gitlab.engr.illinois.edu/hongboz2/digital_systems_laboratory/-/tree/main/16-bit_Adder)
 
 Implementation of three 16-bit Adder using SystemVerilog
 * 16-bit Ripple-Carry Adder
