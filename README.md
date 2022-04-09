@@ -27,3 +27,7 @@ Implementation of three 16-bit Adder using SystemVerilog
 * 16-bit Ripple-Carry Adder
 * 16-bit Carry-Select Adder
 * 16-bit Carry Lookahead Adder
+
+#### Lab 4 - [8-bit Multiplier](https://gitlab.engr.illinois.edu/hongboz2/digital_systems_laboratory/-/tree/main/8-bit_Multiplier)
+
+Implementation of the 8-bit Multiplier using SystemVerilog
