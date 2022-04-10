@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Mon Jul 12 19:21:50 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : SLC-3_Fetch
+Top-level Entity Name : slc3_testtop
+Family : MAX 10
+Total logic elements : 111
+    Total combinational functions : 109
+    Dedicated logic registers : 68
+Total registers : 68
+Total pins : 51
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0
