@@ -1,0 +1,7 @@
+module BEN(
+	input logic [15:0] DataBus,
+	input logic [2:0]IR_11_9,
+	input logic LD_BEN, LD_CC,
+	
+	output logic BEN_Out
+);

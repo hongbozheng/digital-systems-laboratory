@@ -1,0 +1,62 @@
+module slc3_fetch_testbench();
+
+timeunit 10ns;	// Half clock cycle at 50 MHz
+// This is the amount of time represented by #1 
+timeprecision 1ns;
+
+logic CLK=0;
+
+logic [9:0] SW;
+logic	Clk, Run, Continue;
+logic [9:0] LED;
+logic [6:0] HEX0, HEX1, HEX2, HEX3;
+
+slc3_testtop slc3_TestTop(.Clk(CLK),.Run,.Continue,.HEX0,.HEX1,.HEX2,.HEX3);
+
+// Toggle the clock
+// #1 means wait for a delay of 1 timeunit
+always begin : CLOCK_GENERATION
+#1 CLK = ~CLK;
+end
+
+initial begin: CLOCK_INITIALIZATION
+    CLK = 0;
+end 
+
+// Testing begins here
+// The initial block is not synthesizable
+// Everything happens sequentially inside an initial block
+// as in a software program
+initial begin: TEST_VECTORS
+
+// Initialize Values
+SW=10'b0;
+Run=1'b1;
+Continue=1'b1;
+
+#20 Run=1'b0;
+Continue=1'b0;
+
+#2 Run=1'b1;
+Continue=1'b1;
+
+#2 Run=1'b0;
+#2 Run=1'b1;
+
+#50 Continue=1'b0;
+#5 Continue=1'b1;
+
+#50 Continue=1'b0;
+#5 Continue=1'b1;
+
+#50 Continue=1'b0;
+#5 Continue=1'b1;
+
+#50 Continue=1'b0;
+#5 Continue=1'b1;
+
+#50 Continue=1'b0;
+#5 Continue=1'b1;
+
+end
+endmodule
