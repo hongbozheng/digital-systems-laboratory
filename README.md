@@ -35,3 +35,7 @@ Implementation of the 8-bit Multiplier using SystemVerilog
 #### Lab 5 Part 1 - [SLC-3 Fetch](https://gitlab.engr.illinois.edu/hongboz2/digital_systems_laboratory/-/tree/main/SLC-3_Fetch)
 
 Implementation of the SLC-3 Fetch using SystemVerilog
+
+#### Lab 5 Part 2 - [SLC-3](https://gitlab.engr.illinois.edu/hongboz2/digital_systems_laboratory/-/tree/main/SLC-3)
+
+Implementation of the SLC-3 using SystemVerilog
