@@ -39,3 +39,7 @@ Implementation of the SLC-3 Fetch using SystemVerilog
 #### Lab 5 Part 2 - [SLC-3](https://gitlab.engr.illinois.edu/hongboz2/digital_systems_laboratory/-/tree/main/SLC-3)
 
 Implementation of the SLC-3 using SystemVerilog
+
+#### Lab 6 Part 1 - [Flickering LED](https://gitlab.engr.illinois.edu/hongboz2/digital_systems_laboratory/-/tree/main/FlickeringLED)
+
+Implementation of the Flickering LED using NIOS-II System & SystemVerilog
