@@ -43,3 +43,9 @@ Implementation of the SLC-3 using SystemVerilog
 #### Lab 6 Part 1 - [Flickering LED](https://gitlab.engr.illinois.edu/hongboz2/digital_systems_laboratory/-/tree/main/FlickeringLED)
 
 Implementation of the Flickering LED using NIOS-II System & SystemVerilog
+
+#### Lab 6 Part 2 - [Bouncing Ball](https://gitlab.engr.illinois.edu/hongboz2/digital_systems_laboratory/-/tree/main/BouncingBall)
+
+Implementation of the Bouncing Ball using NIOS-II System & SystemVerilog
+
+Note: This project needs a Monitor for display, and a keyboard for controlling the movement of the ball on the screen.
