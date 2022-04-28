@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Thu Aug 05 12:54:38 2021
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : TextModeGraphicsController
+Top-level Entity Name : lab6
+Family : MAX 10
+Total logic elements : 50,624
+    Total combinational functions : 30,391
+    Dedicated logic registers : 21,775
+Total registers : 21775
+Total pins : 141
+Total virtual pins : 0
+Total memory bits : 11,392
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1
+UFM blocks : 0
+ADC blocks : 0
