@@ -49,3 +49,7 @@ Implementation of the Flickering LED using NIOS-II System & SystemVerilog
 Implementation of the Bouncing Ball using NIOS-II System & SystemVerilog
 
 Note: This project needs a Monitor for display, and a keyboard for controlling the movement of the ball on the screen.
+
+#### Lab 7 - [Text Mode Graphics Controller](https://gitlab.engr.illinois.edu/hongboz2/digital_systems_laboratory/-/tree/main/TextModeGraphicsController)
+
+Implementation of the Text Mode Graphics Controller using NIOS-II System & SystemVerilog
